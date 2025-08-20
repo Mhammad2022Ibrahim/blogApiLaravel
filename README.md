@@ -1,6 +1,6 @@
 # Blog API
 
-A RESTful API for blog management built with Laravel 9, Eloquent ORM, and Laravel Sanctum authentication. This API provides comprehensive blog functionality including article management, user authentication, and content publishing.
+A RESTful API for blog management built with Laravel, Eloquent ORM, and Laravel Sanctum authentication. This API provides comprehensive blog functionality including article management, user authentication, and content publishing.
 
 ## Features
 
