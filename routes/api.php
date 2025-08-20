@@ -60,3 +60,9 @@ Route::post('/login', function (Request $request) {
 
     return response()->json(['message' => 'Login successful', 'token' => $token], 200);
 });
+
+Route::post('/logout', function (Request $request) {
+    $request->user()->currentAccessToken()->delete();
+
+    return response()->json(['message' => 'Logout successful'], 200);
+})->middleware('auth:sanctum');

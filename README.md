@@ -9,14 +9,14 @@ A RESTful API for blog management built with Laravel 9, Eloquent ORM, and Larave
 - 📚 **Content Publishing** - Publish/unpublish articles with status management
 - 🏷️ **Categorization** - Organize articles by categories
 - 🔍 **Search & Filter** - Advanced filtering and search capabilities
-- 📊 **Database** - SQLite/MySQL with Eloquent ORM
+- 📊 **Database** - MySQL with Eloquent ORM
 - ✅ **Validation** - Comprehensive input validation
 - 🏗️ **Clean Architecture** - Laravel best practices and conventions
 
 ## Tech Stack
 
-- **Framework**: Laravel 9
-- **Database**: SQLite (default) / MySQL
+- **Framework**: Laravel 
+- **Database**: MySQL
 - **ORM**: Eloquent
 - **Authentication**: Laravel Sanctum
 - **Validation**: Laravel Form Requests
